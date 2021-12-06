@@ -1,0 +1,30 @@
+.onboarding-swiper-pagination {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 197, 41, 1);
+
+    &.swiper-pagination-bullet-active {
+      background: #FFC529;
+      width: 25px;
+      border-radius: 2.5px;
+    }
+  }
+}
+
+.logo-container {
+  padding-top: 52px;
+}
+
+.content-container {
+  padding: 32px 20px 44px 20px;
+}
+
+.icon-right {
+  
+}

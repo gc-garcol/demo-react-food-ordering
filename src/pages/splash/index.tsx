@@ -4,7 +4,7 @@ import { Style } from "./index.style";
 
 import logo from "./static/logo.svg";
 
-const Splash = (state: any) => {
+const Splash = (props: any) => {
   return (
     <React.Fragment>
       <Style.SplashContainer>
