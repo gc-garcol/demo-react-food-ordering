@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Icon, Input } from "semantic-ui-react";
-import { Container, Label, Title, LoginButotn } from "./login.style";
+import { Container, Label, Title, LoginButton } from "./login.style";
 import "./index.scss";
 
 const LoginPage = (props: any) => {
@@ -41,7 +41,7 @@ const LoginPage = (props: any) => {
         />
       </Container>
 
-      <LoginButotn>LOGIN</LoginButotn>
+      <LoginButton>LOGIN</LoginButton>
     </Container>
   );
 }

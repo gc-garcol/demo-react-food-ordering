@@ -28,7 +28,7 @@ line-height: 120%;
 color: #FFFFFF;
 `;
 
-export const LoginButotn = styled.button.attrs(props => ({
+export const LoginButton = styled.button.attrs(props => ({
   
 }))`
   border: none;
@@ -47,4 +47,7 @@ export const LoginButotn = styled.button.attrs(props => ({
   margin-left: 50%;
   margin-top: 32px;
   transform: translateX(-50%);
+  &:hover {
+    background-color: #FE725C;
+  }
 `;
