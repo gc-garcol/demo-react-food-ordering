@@ -1,0 +1,38 @@
+.login-container {
+  background-color: #2D2D3A;
+  width: 100vw;
+  height: 100vh;
+  padding: 180px 24px 0 24px;
+  background-image: url('../static/auth-bg-decor.svg');
+  background-repeat: no-repeat;
+}
+
+.password-container {
+  margin-top: 28px;
+}
+
+div.input {
+  width: 100%;
+}
+
+div.input > input {
+  height: 65px;
+  background-color: #393948 !important;
+  font-family: Sofia Pro !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px !important;
+  line-height: 17px !important;
+  color: #ADADB8 !important;
+  border-radius: 14px !important;
+
+  &:focus {
+    border-color: #FE724C !important;
+  }
+}
+
+div.input.--password > .password-icon {
+  &.--open {
+    color: #D0D2D1;
+  }
+}

@@ -6,6 +6,7 @@ import App from './App';
 import "./index.scss"
 import 'swiper/swiper.scss';
 import "swiper/swiper-bundle.min.css";
+import "semantic-ui-css/semantic.min.css";
 
 const reduxApp = (
   <Provider store={ store } >

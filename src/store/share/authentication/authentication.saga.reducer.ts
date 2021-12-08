@@ -1,3 +1,4 @@
+import { FAILURE, REQUEST } from "store/share/action-type.util";
 import { AUTHENTICATION_ACTION_TYPES as ACTION_TYPES } from "./authentication.action.type";
 
 const initialState = {
@@ -13,6 +14,19 @@ handlers[ACTION_TYPES.UPDATE_ATTRIBUTES] = (state: any, action: any) => {
   return {
     ...state,
     ...action.payload
+  }
+};
+
+handlers[REQUEST(ACTION_TYPES.LOGIN)] = (state: any, action: any) => {
+  return {
+    ...state,
+    loading: true
+  }
+};
+
+handlers[FAILURE(ACTION_TYPES.LOGIN)] = (state: any, action: any) => {
+  return {
+    ...initialState
   }
 };
 
